@@ -1,0 +1,184 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open sans", sans-serif;
+}
+
+.container {
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.divWrapper {
+    padding: 15px 0;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+/* you can also use .information a */
+.information .social {
+    font-size: 25px;
+    font-weight: 500;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.information .social:hover {
+    font-size: 26px;
+}
+
+.information .job {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 15px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.summary P {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.education ul {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.education ul li:first-child {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.education ul li:nth-child(2),
+.education ul li:nth-child(3) {
+    margin-left: 25px;
+}
+
+.experience .project>li {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.experience .project ul li {
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 100px;
+
+}
+
+.experience .project ul li ul li {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.skills ul li {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.skills ul li ul li {
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+.courses ul li {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.courses ul p {
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+.additionalInfo ul li {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 20px;
+    font-weight: normal;
+}
